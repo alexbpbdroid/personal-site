@@ -135,7 +135,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		/* color: #787878; */
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2099,7 +2099,7 @@ input, select, textarea {
 			}
 
 		.image img {
-			border-radius: 0.35em;
+			/* border-radius: 0.35em; */
 			display: block;
 		}
 
@@ -2593,7 +2593,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #1f1815;
 		background-attachment: scroll,								scroll;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		/* background-image: url("images/overlay.png"), url("../../images/bg.jpg"); */
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								150%;
@@ -2602,7 +2602,7 @@ input, select, textarea {
 		left: 0;
 		padding: 8em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 35%;
 	}
@@ -2640,7 +2640,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			/* width: 6.25em; */
 		}
 
 /* Footer */
@@ -2691,7 +2691,8 @@ input, select, textarea {
 		#main > section {
 			border-top: solid 2px #efefef;
 			margin: 4em 0 0 0;
-			padding: 4em 0 0 0;
+      padding: 4em 0 0 0;
+      color: black;
 		}
 
 			#main > section:first-child {
@@ -3218,4 +3219,50 @@ input, select, textarea {
 				padding-left: 0;
 			}
 
-	}
+  }
+
+.under-profile {
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.right-side {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.about-text {
+  font-style: italic
+}
+
+.my-name {
+  letter-spacing: 0.075em;
+}
+
+.about-me {
+  letter-spacing: 0.075em;
+  /* font-size: 1.5em; */
+}
+
+#projects {
+  letter-spacing: 0.075em;
+  font-size: 2em;
+}
+
+.location, .email, .resume {
+  text-align: left;
+}
+
+/* .location {
+
+}
+
+.email {
+
+}
+
+.resume {
+
+} */
