@@ -3225,7 +3225,7 @@ input, select, textarea {
   justify-content: center;
   display: flex;
   font-size: 20px;
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 .right-side {
@@ -3243,26 +3243,36 @@ input, select, textarea {
 
 .about-me {
   letter-spacing: 0.075em;
-  /* font-size: 1.5em; */
+  text-align: center;
+  font-weight: bolder;
 }
 
 #projects {
   letter-spacing: 0.075em;
   font-size: 2em;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .location, .email, .resume {
   text-align: left;
 }
 
-/* .location {
-
+.skills-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.email {
-
+.skill-icon {
+  flex: 0 32%;
+  height: 100px;
+  margin-bottom: 2%; /* (100-32*3)/2 */
+  font-size: 100px;
+  text-align: center;
 }
 
-.resume {
-
-} */
+#profile-pic {
+  border-radius: 15px;
+  border: 1px solid black;
+}
